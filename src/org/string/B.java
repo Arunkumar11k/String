@@ -34,22 +34,9 @@ public class B {
 		  a1.setGender('m');
 		  l.put("1st employee details",a);
 		  l.put("2nd employee datails",a1);
-		  
-		  
-		  
-//for (int i = 0; i < l.size(); i++) {
-//	System.out.println(l.get(i).getEmpName());
-//	System.out.println(l.get(i).geteMail());
-//	System.out.println(l.get(i).getEmpName());
-//	System.out.println(l.get(i).getDob());
-//	System.out.println(l.get(i).getEmpId());
-//	System.out.println(l.get(i).getGender());
-//	System.out.println(l.get(i).getSal());
-//	System.out.println(l.get(i).getDoj());
-//	System.out.println(l.get(i).getAdd());
 	
-		  Set<Entry<String,A>> entrySet = l.entrySet();
-	System.out.println(entrySet);	  
+		Set<Entry<String,A>> entrySet = l.entrySet();
+	     System.out.println(entrySet);	  
 		  
 		  
 	for (Entry<String, A> j : entrySet) {
@@ -76,7 +63,7 @@ public class B {
 }			
 		}
 		
-		
+	
 		
 		
 	
