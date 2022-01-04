@@ -28,6 +28,7 @@ public class Str {
     	 System.out.println(integer);
 		
 	}
+     System.out.println("Arunkumar");
 
 	}
 
